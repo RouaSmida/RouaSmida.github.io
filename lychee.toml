@@ -1,0 +1,16 @@
+# Link checker configuration (https://lychee.cli.rs)
+max_retries = 2
+timeout = 20
+no_progress = true
+
+exclude = [
+  # Placeholder project links: remove this line once every TODO link is replaced.
+  'github\.com/RouaSmida/TODO',
+  # CV is uploaded manually: remove this line once assets/Roua_Smida_CV.pdf exists.
+  'Roua_Smida_CV\.pdf',
+  # The live site does not exist before the first deployment.
+  '^https://rouasmida\.github\.io',
+  # LinkedIn blocks automated requests (HTTP 999).
+  'linkedin\.com',
+  '^mailto:',
+]

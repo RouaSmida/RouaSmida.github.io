@@ -1,0 +1,8 @@
+{
+  "root": true,
+  "extends": ["html-validate:recommended"],
+  "rules": {
+    "long-title": "off",
+    "no-inline-style": "error"
+  }
+}
